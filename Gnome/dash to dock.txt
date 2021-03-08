@@ -1,0 +1,7 @@
+1) git clone https://github.com/micheleg/dash-to-dock.git
+2) cd dash-to-dock
+3) make
+4) make install
+5) go to Extension sand enable Dash to Dock
+
+

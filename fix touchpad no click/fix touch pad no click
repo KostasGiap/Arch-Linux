@@ -1,0 +1,71 @@
+on Gnome
+Settings --> Mouse & Touchpad --> Touchpad section --> Tap to Click set to Enable
+
+
+
+
+
+
+
+
+
+
+
+
+ #----------------------------------------------------------------------------------------#
+
+
+1) tutorial: https://xtrymind.wordpress.com/2017/03/11/enable-tap-to-click-on-openbox/
+
+2) sudo pacman -S  xf86-input-libinput
+
+3) sudo libinput list-devices
+
+4) find touch pad device name (e.x: "ELAN061B:00 04F3:309E Touchpad")
+
+5) xinput list-props "ELAN061B:00 04F3:309E Touchpad"
+
+6) xinput set-prop "ELAN061B:00 04F3:309E Touchpad" "libinput Tapping Enabled" 1 
+
+7) xinput set-prop "ELAN061B:00 04F3:309E Touchpad" 325 1
+
+
+ #----------------------------------------------------------------------------------------#
+
+
+
+https://arcolinuxforum.com/viewtopic.php?t=664
+
+ou can change the default value in your libinput config file located at
+
+/usr/share/X11/xorg.conf.d/40-libinput.conf
+
+(mine is actually 90-libinput.conf. anyways, something like this.)
+
+Just add
+
+Option "Tapping" "True"
+
+For me, the complete entry is:
+
+Section "InputClass"
+	Identifier "libinput touchpad catchall"
+	MatchIsTouchpad "on"
+	MatchDevicePath "/dev/input/event*"
+	Driver "libinput"
+	Option "Tapping" "True"
+EndSection
+
+
+
+
+
+
+
+
+
+
+
+
+
+

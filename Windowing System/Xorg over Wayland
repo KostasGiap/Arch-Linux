@@ -1,0 +1,5 @@
+tutorial: https://linuxconfig.org/how-to-disable-wayland-and-enable-xorg-display-server-on-ubuntu-18-04-bionic-beaver-linux
+
+1) sudo nano /etc/gdm/custom.conf
+2) uncomment WaylandEnable=false
+3) systemctl reboot -i

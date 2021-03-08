@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=CdLcJLKEMbY
+On windows: 
+1) Go to Power & Sleep Settings
+2) Click on Additional power settings
+3) Choose what the power buttons do
+4) click on Chnages settings tha are currently unavailable
+5) Uncheck  Turn on fast startup (recommended)
+6) Click on Save changes
+
+
+
+On Linux
+1) sudo ntfsfix /dev/sda2

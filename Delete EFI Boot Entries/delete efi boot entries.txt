@@ -1,0 +1,4 @@
+https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi
+
+1) sudo efibootmgr
+2) sudo efibootmgr -b 0005 -B 

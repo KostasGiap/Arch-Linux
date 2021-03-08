@@ -1,0 +1,4 @@
+1) got to pamac
+2) enable AURsupport
+3) search for gnome-shell-extension-desktop-icons-ng 0.14.0-1
+4) go to Extensions and enableDesktop Icons NG (DING)

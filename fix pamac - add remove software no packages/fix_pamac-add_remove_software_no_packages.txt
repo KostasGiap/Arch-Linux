@@ -1,0 +1,4 @@
+1) https://aur.archlinux.org/packages/archlinux-appstream-data-pamac/
+2) git clone https://aur.archlinux.org/archlinux-appstream-data-pamac.git
+3) cd to path that you cloned
+4) makepkg -si

@@ -1,0 +1,6 @@
+1) Extensions --> Enable KStatusNotifierItem/AppIndicator Support
+2) Download from AUR gnome-shell-extension-topicons-plus 
+   https://aur.archlinux.org/packages/gnome-shell-extension-topicons-plus/
+3) press on keyboard: Alt+F2 and then type r
+4) systemctl reboot -i
+6) Extensions --> Enable TopIcons Plus

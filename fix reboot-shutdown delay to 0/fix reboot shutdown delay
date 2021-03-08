@@ -1,0 +1,5 @@
+https://askubuntu.com/questions/1248330/modifying-the-ubuntu-20-04-desktop-logout-delay-timer
+
+https://ubuntu-mate.community/t/change-time-interval-until-logged-out/17553/3
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.shell.extensions.end-session-timer time-out 14

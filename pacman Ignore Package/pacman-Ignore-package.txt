@@ -1,0 +1,3 @@
+sudo nano /etc/pacman.conf
+
+IgnorePkg = linux-lts linux-lts-headers nvidia-lts nvidia-utils mkinitcpio

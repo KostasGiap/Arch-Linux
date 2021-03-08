@@ -1,0 +1,5 @@
+tutorial: https://wiki.archlinux.org/index.php/NTFS-3G#Installation
+
+1) sudo pacman -S ntfs-3g 
+2) reboot
+
